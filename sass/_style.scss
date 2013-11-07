@@ -1,0 +1,35 @@
+.top-bar {
+	.ul {
+		margin: 0 auto;
+	}
+}
+
+ul.social {
+		list-style-type: none;
+		li {
+			display: inline;
+			float: right;
+			padding: 10px;
+			}
+		a { 
+			display: block;
+		}
+}
+
+footer {
+		p {
+			text-align: center;
+			style: italic;
+		}
+	}
+
+@media only screen and (max-width: 768px) {
+		#logo.img {
+			margin: 0 auto;;
+		}
+		ul.social {
+			display: list-item;
+		}
+}	
+	
+	
